@@ -12,12 +12,13 @@ void setup()
     Serial.begin(115200);
     Serial.println(">> Funpack Smart Air <<");
 
-    tft.begin();
+    tft.init();
     tft.setRotation(3);
-    tft.fillScreen(TFT_BLUE);
-    tft.setFreeFont(FMB12);
-    tft.setCursor((320 - tft.textWidth("Funpack Smart Air"))/2, 120);
-    tft.print("Funpack Smart Air");
+    tft.fillScreen(tft.color565(24,15,60));
+    //tft.fillScreen(TFT_BLUE);
+    //tft.setFreeFont(FMB12);
+    //tft.setCursor((320 - tft.textWidth("Funpack Smart Air"))/2, 120);
+    //tft.print("Funpack Smart Air");
 
     if (! aht.begin()) {
         Serial.println("Could not find AHT? Check wiring");
@@ -43,10 +44,11 @@ void getSensorData(const float temp, const float humi)
     // -----------------LCD---------------------
 
     //if (pageChanged) {
-    tft.fillScreen(tft.color565(24,15,60));
+    //tft.fillScreen(tft.color565(24,15,60));
     tft.setFreeFont(FF17);
     tft.setTextColor(tft.color565(224,225,232));
-    tft.drawString("Smart Air Dashboard", 80, 10);
+    //tft.drawString("Smart Air Dashboard", 80, 10);
+    tft.drawString("Funpack Smart Air", 85, 10);
  
     tft.fillRoundRect(10,  45, 145, 180, 5, tft.color565(40,40,86));
     tft.fillRoundRect(165, 45, 145, 180, 5, tft.color565(40,40,86));
