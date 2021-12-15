@@ -26,7 +26,7 @@
 - 按上方左键可手动更新天气信息；
 - 可通过五向开关的 Left 和 Right 翻页查看未来几天的天气预测。
 
-![](https://static.getiot.tech/wio-terminal-weather-box.jpg)
+![](https://static.getiot.tech/Funpack12_WioT_WeatherBox.png)
 
 针对这次活动和实现的功能，我一共整理了五篇文章：
 
