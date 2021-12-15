@@ -244,7 +244,7 @@ void drawWeatherLivePage(lives_t &lives_data)
     } else if (0 == strcmp(lives_data.weather, "阴")) {
       tft.setTextColor(TFT_LIGHTGREY);
       tft.drawString("cloudy", 240, 10);
-    } else if (0 == strcmp(lives_data.weather, "雨")) {
+    } else if (strstr(forecasts_data->dayweather, "雨")) {
       tft.setTextColor(TFT_DARKCYAN);
       tft.drawString("rainy", 240, 10);
     }
@@ -322,7 +322,7 @@ void drawWeatherForecastPage(forecasts_t *forecasts_data)
     } else if (0 == strcmp(forecasts_data->dayweather, "阴")) {
       tft.setTextColor(TFT_LIGHTGREY);
       tft.drawString("cloudy", 190, 60);
-    } else if (0 == strcmp(forecasts_data->dayweather, "雨")) {
+    } else if (strstr(forecasts_data->dayweather, "雨")) {
       tft.setTextColor(TFT_DARKCYAN);
       tft.drawString("rainy", 190, 60);
     }
