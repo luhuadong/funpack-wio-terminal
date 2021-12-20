@@ -28,17 +28,18 @@
 
 ![](https://static.getiot.tech/Funpack12_WioT_WeatherBox.png)
 
-针对这次活动和实现的功能，我一共整理了五篇文章：
+针对这次活动和实现的功能，我一共整理了六篇文章：
 
 1. [Wio Terminal 有什么好玩的？](https://luhuadong.blog.csdn.net/article/details/121924371)
 2. [Wio Terminal 读取 AHT10 传感器](https://luhuadong.blog.csdn.net/article/details/121924554)
 3. [Wio Terminal 将数据存储到 Flash](https://luhuadong.blog.csdn.net/article/details/121924656)
 4. [Wio Terminal 从网络获取天气数据](https://luhuadong.blog.csdn.net/article/details/121924844)
 5. [Wio Terminal 天气小助手项目](https://luhuadong.blog.csdn.net/article/details/121924915)
+5. [Wio Terminal LCD 中文显示](https://luhuadong.blog.csdn.net/article/details/121939994)
 
 视频和代码链接如下：
 
-- 视频介绍：<> 
+- 视频介绍：<https://www.bilibili.com/video/BV1Cq4y127wy/> 
 - 代码仓库：<https://github.com/luhuadong/funpack-wio-terminal>
 
 Wio Terminal 天气小助手的固件代码位于 firmware/WeatherBox 目录，可通过 Arduino IDE 打开，编译并上传到 Wio Terminal。当然，为了顺利编译，你通常还需要安装一些依赖库（看文档说明）。
@@ -58,6 +59,8 @@ Wio Terminal 天气小助手的固件代码位于 firmware/WeatherBox 目录，�
 2021年12月14日，Rudy
 
 
+
+![](https://static.getiot.tech/Funpack12_Wio_Terminal_Cover.jpeg)
 
 
 
